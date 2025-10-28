@@ -30,8 +30,3 @@ The agent workflow consists of these key nodes:
 
 1. Create and activate a virtual environment with uv (as shown in the notebook)
 2. Run the Jupyter notebook to build and execute the agent
-
-## Author
-
-### [Matthew Sayer]
-- **Email:** matthew.sayer1@gmail.com
