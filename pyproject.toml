@@ -8,7 +8,6 @@ dependencies = [
     "colorama>=0.4.6",
     "ipykernel>=6.30.1",
     "jupyter>=1.1.1",
-    "langchain>=1.0.3",
     "langchain-community>=0.3.27",
     "langchain-ollama",
     "langgraph>=0.6.5",
