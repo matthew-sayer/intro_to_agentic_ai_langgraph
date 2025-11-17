@@ -1,7 +1,5 @@
 from fastmcp import FastMCP
-from typing import Dict, Any
-import urllib.request
-import xml.etree.ElementTree as ET
+from typing import Dict
 
 mcp = FastMCP(
     "my_first_mcp_server",
