@@ -1,5 +1,7 @@
 from fastmcp import FastMCP
-from typing import Dict
+from typing import Dict, Any
+import urllib.request
+import xml.etree.ElementTree as ET
 
 mcp = FastMCP(
     "my_first_mcp_server",
@@ -22,6 +24,5 @@ def fizzbuzz(x: int) -> Dict:
             results[i] = "Buzz"
 
     return results
-
 
 mcp.run(transport="streamable-http", port=8080)
